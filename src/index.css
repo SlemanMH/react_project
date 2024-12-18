@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(44, 62, 80) !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.bootstrap-start {
+    padding: 100px 0px;
+    background-color: rgb(26, 188, 156) !important;
+    color: #fff;
+}
+
+.bootstrap-start img {
+    width: 15%;
+}
+
+.bootstrap-start h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.bootstrap-start p {
+    font-weight: 900;
+}
+
+.portfolio {
+    padding: 70px 0px;
+}
+
+.portfolio h2 {
+    color: rgb(44, 62, 80);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.portfolio-image {
+    gap: 40px;
+}
+
+.portfolio-image img {
+    width: calc((100% - 80px) / 3);
+    border-radius: 10px;
+}
+
+.about {
+    padding: 70px 0px;
+    background-color: rgb(26, 188, 156);
+    color: #fff;
+    font-weight: 600;
+}
+
+.about h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.border-button {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact {
+    padding: 70px 0px;
+}
+
+.contact h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(44, 62, 80);
+}
+
+.contact input,
+.contact textarea {
+    width: 50%;
+    height: 2.5rem;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact button {
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(26, 188, 156);
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: rgb(44, 62, 80);
+    color: #fff;
+    padding: 40px 0px;
+}
+
+.footer h2 {
+    font-weight: 900;
+}
+
+.footer-social-icon img {
+    width: 25px;
+    height: 25px;
+
+}
+
+.social-icon {
+    border: #fff 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer-content a {
+    color: rgb(26, 188, 156);
+}
